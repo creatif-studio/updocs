@@ -2,6 +2,33 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+### Change Title & favicon Web
+
+open file `docusaurus.config.js` see on line 9 - 11, and change the title or favicon
+
+```
+title: "Creatif Studio Blog",
+tagline: "Dinosaurs are cool",
+favicon: "img/favicon.ico",
+```
+
+### Change Navbar Logo & Title
+
+open file `docusaurus.config.js` see on line 67, and change title & logo navbar on key `navbar` like this:
+
+```
+ navbar: {
+    title: "Creatif Studio",
+    logo: {
+      src: "img/logo-light.png",
+      srcDark: "img/logo-dark.png",
+    },
+ }
+```
+
+`src` for light logo
+`srcDark` for dark logo
+
 ### Installation
 
 ```
