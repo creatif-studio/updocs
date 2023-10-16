@@ -1,4 +1,7 @@
-# Website
+# Docs
+Creatif Studio: Official Documentation
+
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
