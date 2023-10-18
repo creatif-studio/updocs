@@ -1,5 +1,5 @@
 # Docs
-Creatif Studio: Official Documentation
+Official Documentation
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
