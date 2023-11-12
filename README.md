@@ -1,5 +1,5 @@
-# Creatif Docs
-Template for everyone
+# Updocs
+Template docs for everyone
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/creatif-studio/creatif-docs)](https://github.com/creatif-studio/creatif-docs/issues)
@@ -9,7 +9,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 ### Change Title & favicon Web
 
-open file `docusaurus.config.js` see on line 9 - 11, and change the title or favicon
+open file `docusaurus.config.js` see on lines 9 - 11, and change the title or favicon
 
 ```
 title: "Creatif Studio Blog",
@@ -19,7 +19,7 @@ favicon: "img/favicon.ico",
 
 ### Change Navbar Logo & Title
 
-open file `docusaurus.config.js` see on line 67, and change title & logo navbar on key `navbar` like this:
+open file `docusaurus.config.js` see on line 67, and change the title & logo navbar on key `navbar` like this:
 
 ```
  navbar: {
@@ -70,4 +70,4 @@ Not using SSH:
 $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push it to the `gh-pages` branch.
