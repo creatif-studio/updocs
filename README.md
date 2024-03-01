@@ -17,12 +17,12 @@ $ yarn start
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ### Routing
-/ = Resource__
-/contact-us = Contact US
-/detail-product = Detail Product
-/sample-blog = Halaman utama Blog
-/detail-blog = Detail Blog
-/setapp = MASIH ERROR
+/ = Resource  
+/contact-us = Contact US  
+/detail-product = Detail Product  
+/sample-blog = Halaman utama Blog  
+/detail-blog = Detail Blog  
+/setapp = MASIH ERROR  
 
 ### Build
 
