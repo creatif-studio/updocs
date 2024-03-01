@@ -18,6 +18,7 @@ export const NavbarDesktop = ({
   route,
 }: INavbarAllScreen): JSX.Element => {
   const { pathname } = useLocation();
+  console.log(pathname)
 
   const [showMenuResource, setShowMenuResource] = useState(false);
 
@@ -50,14 +51,14 @@ export const NavbarDesktop = ({
     //   </ul>
     // </div>
     <nav
-      className={`bg-white shadow md:flex items-center justify-between ${className} p-6`}
+      className={`bg-white shadow xl:flex items-center justify-between ${className} p-6`}
     >
       <div className="flex justify-between items-center">
         <img
           src="/logo1.svg"
           alt="Logo"
-          width={0}
-          height={0}
+          width={112}
+          height={50.91}
           className="w-20"
         />
         {/* <button
@@ -71,7 +72,7 @@ export const NavbarDesktop = ({
       </div>
 
       <ul
-        className={`md:flex md:items-center md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 md:opacity-100 opacity-0`}
+        className={`md:flex md:items-center md:z-auto md:static mb-0 bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 md:opacity-100 opacity-0 list-none`}
       >
         {route.map((item) => {
           if (item.label === 'Resource') {
@@ -105,7 +106,7 @@ export const NavbarDesktop = ({
                       // href={item.path}
                       className={`text-base font-medium hover:text-black duration-500 rounded  dark:text-white md:dark:text-neutral-950 ${
                         pathname === item.path ? 'text-black' : 'text-[#7F7F7F]'
-                      } cursor-pointer px-4 pl-7 `}
+                      } cursor-pointer px-4 pl-7 mb-0`}
                     >
                       {item.label}
                     </p>

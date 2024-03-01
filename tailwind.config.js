@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ["class"],
+  darkMode: ["class", '[data-theme="dark"]'],
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
@@ -8,6 +8,9 @@ module.exports = {
     './src/**/*.{ts,tsx}',
   ],
   prefix: "",
+  corePlugins: {
+    preflight: false,
+  },
   theme: {
     container: {
       center: true,
@@ -17,6 +20,10 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        'jakarta': ['Plus Jakarta Sans', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

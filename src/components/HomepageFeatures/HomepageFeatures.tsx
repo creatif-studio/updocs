@@ -76,20 +76,20 @@ function Feature({title, logo, description}: FeatureItem) {
     <div className="flex flex-col text-center">
       <div className="row justify-center">
         {/* <Svg className={styles.featureSvg} role="img" /> */}
-        <img src={logo} alt={title} className='w-40' />
+        <img src={logo} alt={title} className='w-[9.4rem]' />
       </div>
       <div className="flex flex-col gap-3">
-        <Heading as="h2" className="font-bold text-3xl">{title}</Heading>
+        <Heading as="h2" className="font-bold text-3xl mb-0">{title}</Heading>
         <p className="text-[#545454] w-1/2 mx-auto">{description}</p>
       </div>
-      <a href="#" className='mt-8 hover:no-underline'>Documentation</a>
+      <a href="#" className='hover:no-underline'>Documentation</a>
     </div>
   );
 }
 
 export default function HomepageFeatures(): JSX.Element {
   return (
-    <section className={styles.features}>
+    <section className="flex items-center w-full px-[4.5rem] py-[5.25rem]">
       <div className="container">
         <div className="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-10">
           {FeatureList.map((props, idx) => (

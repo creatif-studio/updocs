@@ -4,7 +4,7 @@ import { AiFillInstagram } from "react-icons/ai";
 
 function FooterLogoWrap(props) {
   return (
-    <div className="flex flex-col lg:flex-row gap-5 w-full mb-6">
+    <div className="flex flex-col xl:flex-row gap-5 w-full mb-6">
       <div className="flex flex-col gap-5 flex-1">
         <img src="/img/logo1.svg" alt="logo" className="w-28" />
         <p className='w-full sm:w-1/2'>

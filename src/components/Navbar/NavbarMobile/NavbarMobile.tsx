@@ -28,14 +28,14 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
         <img
           src="/logo1.svg"
           alt="Logo"
-          width={0}
-          height={0}
+          width={112}
+          height={50.91}
           className="w-20"
         />
         <DialogTrigger asChild>
           <button
             type="button"
-            className="inline-flex items-center border-[1px] p-3 w-15 h-15 justify-center text-sm text-gray-500 rounded-full border-black md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center border-[1px] p-3 w-15 h-15 justify-center text-sm text-gray-500 rounded-full border-black bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           >
             <span className="sr-only">Open main menu</span>
             <HiMenu size={25} />
@@ -49,15 +49,15 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
               <img
                 src="/logo1.svg"
                 alt="Logo"
-                width={0}
-                height={0}
+                width={112}
+                height={50.91}
                 className="w-20"
               />
               {showResource ? (
                 <button
                   type="button"
                   onClick={() => setShowResource(false)}
-                  className="inline-flex items-center border-[1px] p-3 w-15 h-15 justify-center text-sm text-gray-500 rounded-full border-black md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                  className="inline-flex items-center border-[1px] p-3 w-15 h-15 justify-center text-sm text-gray-500 rounded-full border-black bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                 >
                   <span className="sr-only">Open main menu</span>
                   <IoArrowBack size={25} />
@@ -66,7 +66,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                 <DialogClose asChild>
                   <button
                     type="button"
-                    className="inline-flex items-center border-[1px] p-3 w-15 h-15 justify-center text-sm text-gray-500 rounded-full border-black md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    className="inline-flex items-center border-[1px] p-3 w-15 h-15 justify-center text-sm text-gray-500 rounded-full border-black bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                   >
                     <span className="sr-only">Open main menu</span>
                     <HiOutlineX size={25} />
@@ -272,7 +272,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                   {route.map((item) => {
                     return (
                       <li
-                        className=" py-6 bg-transparent"
+                        className="py-6 bg-transparent list-none"
                         key={item.label}
                         role="button"
                         onClick={() => setShowResource(true)}
@@ -280,7 +280,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                         {item.label === 'Resource' ? (
                           <div className="flex items-center">
                             <p
-                              className={`text-base font-medium hover:text-black duration-500 rounded  dark:text-white md:dark:text-neutral-950 ${
+                              className={`text-base font-medium hover:text-black duration-500 rounded  dark:text-white md:dark:text-neutral-950 mb-0 ${
                                 pathname === item.path
                                   ? 'text-black'
                                   : 'text-[#7F7F7F]'

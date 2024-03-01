@@ -6,7 +6,7 @@ import { GrLinkPrevious, GrLinkNext } from 'react-icons/gr';
 
 function PrevButton() {
   return (
-    <button className="bg-white border-1 border-gray-300 text-gray-700 rounded-xl h-9 border-2 px-5 flex items-center gap-2 ">
+    <button className="bg-white border-1 border-gray-300 text-gray-700 rounded-xl h-9 border-2 border-solid px-5 flex items-center gap-2 ">
       <GrLinkPrevious />
       <span>Previous</span>
     </button>
@@ -14,7 +14,7 @@ function PrevButton() {
 }
 function NextButton() {
   return (
-    <button className="bg-white border-1 border-gray-300 text-gray-700 rounded-xl h-9 border-2 px-5 flex items-center gap-2">
+    <button className="bg-white border-1 border-gray-300 text-gray-700 rounded-xl h-9 border-2 border-solid px-5 flex items-center gap-2">
       <span>Next</span>
       <GrLinkNext />
     </button>
@@ -54,21 +54,21 @@ function Blog() {
           <div className="row justify-center items-center gap-5 mt-7">
             <input
               type="text"
-              className="w-1/4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="w-full sm:w-1/2 md:w-1/4 border border-solid border-gray-300 text-gray-900 bg-white text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="Your email"
             />
-            <button className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+            <button className="w-full sm:w-auto text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
               Subscribe
             </button>
           </div>
         </section>
 
-        <section className="text-left flex flex-col lg:flex-row gap-14">
+        <section className="text-left flex flex-col xl:flex-row gap-14">
           <div className="flex-none">
             <img
               src="/img/blog-image/glenn-carstens.jpg"
               alt="blog1"
-              className="rounded-2xl object-cover w-full h-full lg:w-[731px] lg:h-[388px]"
+              className="rounded-2xl object-cover w-full h-full xl:w-[731px] xl:h-[388px]"
             />
             <div>
               <span className="text-[#4D4EF1]">12, Oct 2023</span>
@@ -148,9 +148,9 @@ function Blog() {
           </div>
         </section>
 
-        <section className='my-10'>
+        <section className="my-10">
           <h2 className="text-2xl font-semibold mb-8">All Blog</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+          <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
             {imageBlog.map((itemImage, i) => (
               <div key={i}>
                 <img

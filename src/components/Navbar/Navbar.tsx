@@ -11,11 +11,24 @@ interface INavbar {
   route: IMenuRoute[];
 }
 
+const logo = [
+  {
+    name: '',
+    img: '/logo1.svg',
+    path: ''
+  },
+  {
+    name: 'Setapp',
+    img: '/logo2.svg',
+    path: 'setapp'
+  }
+]
+
 function Navbar({ route }: INavbar) {
   return (
     <div>
       <NavbarDesktop className="hidden" route={route} />
-      <NavbarMobile className="block md:hidden" route={route} />
+      <NavbarMobile className="block xl:hidden" route={route} />
     </div>
   )
 }

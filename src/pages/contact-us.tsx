@@ -14,7 +14,7 @@ function ContactUs() {
       <main className="container my-16">
         <section className="py-10 text-center">
           <div className="flex flex-col items-center">
-            <Heading as="h1" className="hero__title text-black font-bold">
+            <Heading as="h1" className="font-jakarta text-[2.625rem] text-black font-bold">
               Contact Us
             </Heading>
             <p className="hero__subtitle text-[#545454] text-base w-full md:w-1/2 mb-0">
