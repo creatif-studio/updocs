@@ -118,7 +118,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                     className={`flex flex-col pointer-events-none w-full h-fit gap-8`}
                   >
                     <div>
-                      <h3 className="font-sans font-medium text-2xl mb-5">
+                      <h3 className="font-poppins font-medium text-2xl mb-5">
                         Server
                       </h3>
                       <div className="flex flex-row gap-5">
@@ -133,14 +133,14 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                           <h4 className="font-jakarta text-base font-bold">
                             Setapp
                           </h4>
-                          <p className="font-sans text-[#545454] text-sm">
+                          <p className="font-poppins text-[#545454] text-sm">
                             Server management
                           </p>
                         </div>
                       </div>
                     </div>
                     <div>
-                      <h3 className="font-sans font-medium text-2xl mb-5">
+                      <h3 className="font-poppins font-medium text-2xl mb-5">
                         Management
                       </h3>
                       <div className="flex flex-col gap-3">
@@ -156,7 +156,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                             <h4 className="font-jakarta text-base font-bold">
                               Taktik
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-poppins text-[#545454] text-sm">
                               Server management
                             </p>
                           </div>
@@ -173,7 +173,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                             <h4 className="font-jakarta text-base font-bold">
                               Bambu
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-poppins text-[#545454] text-sm">
                               Server management
                             </p>
                           </div>
@@ -190,7 +190,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                             <h4 className="font-jakarta text-base font-bold">
                               Monito
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-poppins text-[#545454] text-sm">
                               Server management
                             </p>
                           </div>
@@ -198,7 +198,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                       </div>
                     </div>
                     <div>
-                      <h3 className="font-sans font-medium text-2xl mb-5">
+                      <h3 className="font-poppins font-medium text-2xl mb-5">
                         Education
                       </h3>
                       <div className="flex flex-col gap-3">
@@ -214,7 +214,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                             <h4 className="font-jakarta text-base font-bold">
                               Eduka
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-poppins text-[#545454] text-sm">
                               Server management
                             </p>
                           </div>
@@ -231,7 +231,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                             <h4 className="font-jakarta text-base font-bold">
                               Hashtag
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-poppins text-[#545454] text-sm">
                               Server management
                             </p>
                           </div>
@@ -239,7 +239,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                       </div>
                     </div>
                     <div>
-                      <h3 className="font-sans font-medium text-2xl mb-5">
+                      <h3 className="font-poppins font-medium text-2xl mb-5">
                         Application
                       </h3>
                       <div className="flex flex-col gap-3">
@@ -255,7 +255,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                             <h4 className="font-jakarta text-base font-bold">
                               Setapp
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-poppins text-[#545454] text-sm">
                               Server management
                             </p>
                           </div>
@@ -272,7 +272,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                             <h4 className="font-jakarta text-base font-bold">
                               Keepr
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-poppins text-[#545454] text-sm">
                               Server management
                             </p>
                           </div>
@@ -289,7 +289,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                             <h4 className="font-jakarta text-base font-bold">
                               Paraf
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-poppins text-[#545454] text-sm">
                               Server management
                             </p>
                           </div>

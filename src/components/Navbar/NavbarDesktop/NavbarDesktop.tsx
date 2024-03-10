@@ -117,7 +117,7 @@ export const NavbarDesktop = ({
                         className={`flex justify-evenly p-8 pointer-events-none h-fit`}
                       >
                         <div>
-                          <h3 className="font-sans font-medium text-2xl mb-6">
+                          <h3 className="font-poppins font-medium text-2xl mb-6">
                             Server
                           </h3>
                           <div className="flex flex-row gap-5">
@@ -132,14 +132,14 @@ export const NavbarDesktop = ({
                               <h4 className="font-jakarta text-base font-bold mb-0">
                                 Setapp
                               </h4>
-                              <p className="font-sans text-[#545454] text-sm mb-0">
+                              <p className="font-poppins text-[#545454] text-sm mb-0">
                                 Server management
                               </p>
                             </div>
                           </div>
                         </div>
                         <div>
-                          <h3 className="font-sans font-medium text-2xl mb-6">
+                          <h3 className="font-poppins font-medium text-2xl mb-6">
                             Management
                           </h3>
                           <div className="flex flex-col gap-3">
@@ -155,7 +155,7 @@ export const NavbarDesktop = ({
                                 <h4 className="font-jakarta text-base font-bold mb-0">
                                   Taktik
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm mb-0">
+                                <p className="font-poppins text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -172,7 +172,7 @@ export const NavbarDesktop = ({
                                 <h4 className="font-jakarta text-base font-bold mb-0">
                                   Bambu
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm mb-0">
+                                <p className="font-poppins text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -189,7 +189,7 @@ export const NavbarDesktop = ({
                                 <h4 className="font-jakarta text-base font-bold mb-0">
                                   Monito
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm mb-0">
+                                <p className="font-poppins text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -197,7 +197,7 @@ export const NavbarDesktop = ({
                           </div>
                         </div>
                         <div>
-                          <h3 className="font-sans font-medium text-2xl mb-6">
+                          <h3 className="font-poppins font-medium text-2xl mb-6">
                             Education
                           </h3>
                           <div className="flex flex-col gap-3">
@@ -213,7 +213,7 @@ export const NavbarDesktop = ({
                                 <h4 className="font-jakarta text-base font-bold mb-0">
                                   Eduka
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm mb-0">
+                                <p className="font-poppins text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -230,7 +230,7 @@ export const NavbarDesktop = ({
                                 <h4 className="font-jakarta text-base font-bold mb-0">
                                   Hashtag
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm mb-0">
+                                <p className="font-poppins text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -238,7 +238,7 @@ export const NavbarDesktop = ({
                           </div>
                         </div>
                         <div>
-                          <h3 className="font-sans font-medium text-2xl mb-6">
+                          <h3 className="font-poppins font-medium text-2xl mb-6">
                             Application
                           </h3>
                           <div className="flex flex-col gap-3">
@@ -254,7 +254,7 @@ export const NavbarDesktop = ({
                                 <h4 className="font-jakarta text-base font-bold mb-0">
                                   Setapp
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm mb-0">
+                                <p className="font-poppins text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -271,7 +271,7 @@ export const NavbarDesktop = ({
                                 <h4 className="font-jakarta text-base font-bold mb-0">
                                   Keepr
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm mb-0">
+                                <p className="font-poppins text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -288,7 +288,7 @@ export const NavbarDesktop = ({
                                 <h4 className="font-jakarta text-base font-bold mb-0">
                                   Paraf
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm mb-0">
+                                <p className="font-poppins text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -321,7 +321,7 @@ export const NavbarDesktop = ({
                     className={`flex justify-evenly p-8 pointer-events-none  w-[100vw] h-fit`}
                   >
                     <div>
-                      <h3 className="font-sans font-medium text-2xl mb-6">Server</h3>
+                      <h3 className="font-poppins font-medium text-2xl mb-6">Server</h3>
                       <div className="flex flex-row gap-5">
                         <Image
                           src="/products/setapp-light-transparent.png"
@@ -334,14 +334,14 @@ export const NavbarDesktop = ({
                           <h4 className="font-jakarta text-base font-bold mb-0">
                             Setapp
                           </h4>
-                          <p className="font-sans text-[#545454] text-sm mb-0">
+                          <p className="font-poppins text-[#545454] text-sm mb-0">
                             Server management
                           </p>
                         </div>
                       </div>
                     </div>
                     <div>
-                      <h3 className="font-sans font-medium text-2xl mb-6">
+                      <h3 className="font-poppins font-medium text-2xl mb-6">
                         Management
                       </h3>
                       <div className="flex flex-col gap-3">
@@ -357,7 +357,7 @@ export const NavbarDesktop = ({
                             <h4 className="font-jakarta text-base font-bold mb-0">
                               Taktik
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm mb-0">
+                            <p className="font-poppins text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>
@@ -374,7 +374,7 @@ export const NavbarDesktop = ({
                             <h4 className="font-jakarta text-base font-bold mb-0">
                               Bambu
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm mb-0">
+                            <p className="font-poppins text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>
@@ -391,7 +391,7 @@ export const NavbarDesktop = ({
                             <h4 className="font-jakarta text-base font-bold mb-0">
                               Monito
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm mb-0">
+                            <p className="font-poppins text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>
@@ -399,7 +399,7 @@ export const NavbarDesktop = ({
                       </div>
                     </div>
                     <div>
-                      <h3 className="font-sans font-medium text-2xl mb-6">
+                      <h3 className="font-poppins font-medium text-2xl mb-6">
                         Education
                       </h3>
                       <div className="flex flex-col gap-3">
@@ -415,7 +415,7 @@ export const NavbarDesktop = ({
                             <h4 className="font-jakarta text-base font-bold mb-0">
                               Eduka
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm mb-0">
+                            <p className="font-poppins text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>
@@ -432,7 +432,7 @@ export const NavbarDesktop = ({
                             <h4 className="font-jakarta text-base font-bold mb-0">
                               Hashtag
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm mb-0">
+                            <p className="font-poppins text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>
@@ -440,7 +440,7 @@ export const NavbarDesktop = ({
                       </div>
                     </div>
                     <div>
-                      <h3 className="font-sans font-medium text-2xl mb-6">
+                      <h3 className="font-poppins font-medium text-2xl mb-6">
                         Application
                       </h3>
                       <div className="flex flex-col gap-3">
@@ -456,7 +456,7 @@ export const NavbarDesktop = ({
                             <h4 className="font-jakarta text-base font-bold mb-0">
                               Setapp
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm mb-0">
+                            <p className="font-poppins text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>
@@ -473,7 +473,7 @@ export const NavbarDesktop = ({
                             <h4 className="font-jakarta text-base font-bold mb-0">
                               Keepr
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm mb-0">
+                            <p className="font-poppins text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>
@@ -490,7 +490,7 @@ export const NavbarDesktop = ({
                             <h4 className="font-jakarta text-base font-bold mb-0">
                               Paraf
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm mb-0">
+                            <p className="font-poppins text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>
@@ -528,7 +528,7 @@ export const NavbarDesktop = ({
             className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-[100vw] flex flex-row"
           >
             <div>
-              <h4 className='font-sans font-normal text-2xl'>Server</h4>
+              <h4 className='font-poppins font-normal text-2xl'>Server</h4>
               <div className='flex flex-row'>
                 
               </div>
