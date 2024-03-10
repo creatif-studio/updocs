@@ -51,7 +51,7 @@ export const NavbarDesktop = ({
     //   </ul>
     // </div>
     <nav
-      className={`bg-white shadow xl:flex items-center justify-between ${className} p-6`}
+      className={`bg-white xl:flex items-center justify-between ${className} p-6`}
     >
       <div className="flex justify-between items-center">
         <img
@@ -129,10 +129,10 @@ export const NavbarDesktop = ({
                               className="object-contain"
                             />
                             <div>
-                              <h4 className="font-jakarta text-base font-bold">
+                              <h4 className="font-jakarta text-base font-bold mb-0">
                                 Setapp
                               </h4>
-                              <p className="font-sans text-[#545454] text-sm">
+                              <p className="font-sans text-[#545454] text-sm mb-0">
                                 Server management
                               </p>
                             </div>
@@ -152,10 +152,10 @@ export const NavbarDesktop = ({
                                 className="object-contain"
                               />
                               <div>
-                                <h4 className="font-jakarta text-base font-bold">
+                                <h4 className="font-jakarta text-base font-bold mb-0">
                                   Taktik
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm">
+                                <p className="font-sans text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -169,10 +169,10 @@ export const NavbarDesktop = ({
                                 className="object-contain"
                               />
                               <div>
-                                <h4 className="font-jakarta text-base font-bold">
+                                <h4 className="font-jakarta text-base font-bold mb-0">
                                   Bambu
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm">
+                                <p className="font-sans text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -186,10 +186,10 @@ export const NavbarDesktop = ({
                                 className="object-contain"
                               />
                               <div>
-                                <h4 className="font-jakarta text-base font-bold">
+                                <h4 className="font-jakarta text-base font-bold mb-0">
                                   Monito
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm">
+                                <p className="font-sans text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -210,10 +210,10 @@ export const NavbarDesktop = ({
                                 className="object-contain"
                               />
                               <div>
-                                <h4 className="font-jakarta text-base font-bold">
+                                <h4 className="font-jakarta text-base font-bold mb-0">
                                   Eduka
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm">
+                                <p className="font-sans text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -227,10 +227,10 @@ export const NavbarDesktop = ({
                                 className="object-contain"
                               />
                               <div>
-                                <h4 className="font-jakarta text-base font-bold">
+                                <h4 className="font-jakarta text-base font-bold mb-0">
                                   Hashtag
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm">
+                                <p className="font-sans text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -251,10 +251,10 @@ export const NavbarDesktop = ({
                                 className="object-contain"
                               />
                               <div>
-                                <h4 className="font-jakarta text-base font-bold">
+                                <h4 className="font-jakarta text-base font-bold mb-0">
                                   Setapp
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm">
+                                <p className="font-sans text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -268,10 +268,10 @@ export const NavbarDesktop = ({
                                 className="object-contain"
                               />
                               <div>
-                                <h4 className="font-jakarta text-base font-bold">
+                                <h4 className="font-jakarta text-base font-bold mb-0">
                                   Keepr
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm">
+                                <p className="font-sans text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -285,10 +285,10 @@ export const NavbarDesktop = ({
                                 className="object-contain"
                               />
                               <div>
-                                <h4 className="font-jakarta text-base font-bold">
+                                <h4 className="font-jakarta text-base font-bold mb-0">
                                   Paraf
                                 </h4>
-                                <p className="font-sans text-[#545454] text-sm">
+                                <p className="font-sans text-[#545454] text-sm mb-0">
                                   Server management
                                 </p>
                               </div>
@@ -331,10 +331,10 @@ export const NavbarDesktop = ({
                           className="object-contain"
                         />
                         <div>
-                          <h4 className="font-jakarta text-base font-bold">
+                          <h4 className="font-jakarta text-base font-bold mb-0">
                             Setapp
                           </h4>
-                          <p className="font-sans text-[#545454] text-sm">
+                          <p className="font-sans text-[#545454] text-sm mb-0">
                             Server management
                           </p>
                         </div>
@@ -354,10 +354,10 @@ export const NavbarDesktop = ({
                             className="object-contain"
                           />
                           <div>
-                            <h4 className="font-jakarta text-base font-bold">
+                            <h4 className="font-jakarta text-base font-bold mb-0">
                               Taktik
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-sans text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>
@@ -371,10 +371,10 @@ export const NavbarDesktop = ({
                             className="object-contain"
                           />
                           <div>
-                            <h4 className="font-jakarta text-base font-bold">
+                            <h4 className="font-jakarta text-base font-bold mb-0">
                               Bambu
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-sans text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>
@@ -388,10 +388,10 @@ export const NavbarDesktop = ({
                             className="object-contain"
                           />
                           <div>
-                            <h4 className="font-jakarta text-base font-bold">
+                            <h4 className="font-jakarta text-base font-bold mb-0">
                               Monito
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-sans text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>
@@ -412,10 +412,10 @@ export const NavbarDesktop = ({
                             className="object-contain"
                           />
                           <div>
-                            <h4 className="font-jakarta text-base font-bold">
+                            <h4 className="font-jakarta text-base font-bold mb-0">
                               Eduka
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-sans text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>
@@ -429,10 +429,10 @@ export const NavbarDesktop = ({
                             className="object-contain"
                           />
                           <div>
-                            <h4 className="font-jakarta text-base font-bold">
+                            <h4 className="font-jakarta text-base font-bold mb-0">
                               Hashtag
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-sans text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>
@@ -453,10 +453,10 @@ export const NavbarDesktop = ({
                             className="object-contain"
                           />
                           <div>
-                            <h4 className="font-jakarta text-base font-bold">
+                            <h4 className="font-jakarta text-base font-bold mb-0">
                               Setapp
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-sans text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>
@@ -470,10 +470,10 @@ export const NavbarDesktop = ({
                             className="object-contain"
                           />
                           <div>
-                            <h4 className="font-jakarta text-base font-bold">
+                            <h4 className="font-jakarta text-base font-bold mb-0">
                               Keepr
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-sans text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>
@@ -487,10 +487,10 @@ export const NavbarDesktop = ({
                             className="object-contain"
                           />
                           <div>
-                            <h4 className="font-jakarta text-base font-bold">
+                            <h4 className="font-jakarta text-base font-bold mb-0">
                               Paraf
                             </h4>
-                            <p className="font-sans text-[#545454] text-sm">
+                            <p className="font-sans text-[#545454] text-sm mb-0">
                               Server management
                             </p>
                           </div>

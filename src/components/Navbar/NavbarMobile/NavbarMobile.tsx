@@ -15,15 +15,42 @@ import { SlArrowRight } from 'react-icons/sl';
 import { IoArrowBack } from 'react-icons/io5';
 import { useLocation } from '@docusaurus/router';
 import Link from '@docusaurus/Link';
+import { useNavbarSecondaryMenu } from '@docusaurus/theme-common/internal';
+import { useThemeConfig } from '@docusaurus/theme-common';
+
+type showResourceType = 'primary' | 'secondary' | 'resource';
+
+const path = ['setapp'];
 
 function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
   const { pathname } = useLocation();
+  const [openModal, setOpenModal] = useState(false);
   // const [show, setShow] = useState(false);
-  const [showResource, setShowResource] = useState(false);
+  const [showResource, setShowResource] = useState<showResourceType>('primary');
+  // const [showSecondaryMenu, setShowSecondaryMenu] = useState(false);
+
+  const isPrimaryMenuEmpty = useThemeConfig();
+  const secondaryMenu = useNavbarSecondaryMenu();
+
+  React.useEffect(() => {
+    onChangeMenu();
+  }, [pathname]);
+
+  React.useEffect(() => {
+    setOpenModal(false);
+  }, [pathname]);
+
+  const onChangeMenu = () => {
+    const find = path.find((item) => pathname.includes(item));
+    if (find) {
+      setShowResource('secondary');
+    }
+  };
+
   return (
-    <Dialog>
+    <Dialog onOpenChange={(val) => setOpenModal(val)} open={openModal}>
       <nav
-        className={`bg-white shadow flex items-center justify-between ${className} p-6`}
+        className={`bg-white flex items-center justify-between ${className} p-6`}
       >
         <img
           src="/logo1.svg"
@@ -53,10 +80,18 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                 height={50.91}
                 className="w-20"
               />
-              {showResource ? (
+              {showResource == 'resource' || showResource == 'secondary' ? (
                 <button
                   type="button"
-                  onClick={() => setShowResource(false)}
+                  onClick={() => {
+                    if (showResource == 'secondary') {
+                      setShowResource('resource');
+                      // setShowResource("primary")
+                    }
+                    if (showResource == 'resource') {
+                      setShowResource('primary');
+                    }
+                  }}
                   className="inline-flex items-center border-[1px] p-3 w-15 h-15 justify-center text-sm text-gray-500 rounded-full border-black bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                 >
                   <span className="sr-only">Open main menu</span>
@@ -66,6 +101,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                 <DialogClose asChild>
                   <button
                     type="button"
+                    onClick={() => onChangeMenu()}
                     className="inline-flex items-center border-[1px] p-3 w-15 h-15 justify-center text-sm text-gray-500 rounded-full border-black bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                   >
                     <span className="sr-only">Open main menu</span>
@@ -76,7 +112,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
             </div>
 
             <div className="space-x-2 mt-8">
-              {showResource ? (
+              {showResource === 'resource' ? (
                 <div className="flex flex-col gap-8 items-center ">
                   <div
                     className={`flex flex-col pointer-events-none w-full h-fit gap-8`}
@@ -265,6 +301,8 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                     View all product
                   </button>
                 </div>
+              ) : showResource == 'secondary' ? (
+                secondaryMenu.content
               ) : (
                 <ul
                   className={`flex flex-col w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 opacity-100`}
@@ -275,7 +313,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                         className="py-6 bg-transparent list-none"
                         key={item.label}
                         role="button"
-                        onClick={() => setShowResource(true)}
+                        onClick={() => setShowResource('resource')}
                       >
                         {item.label === 'Resource' ? (
                           <div className="flex items-center">

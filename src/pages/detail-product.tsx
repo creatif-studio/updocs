@@ -187,7 +187,7 @@ function DetailProduct() {
                     <div className="rounded-full bg-[#D1FADF] flex flex-row justify-center items-center w-6 h-6">
                       <FaCheck className="text-[#12B76A] w-3" />
                     </div>
-                    200+ integrations
+                    200+ integrations 
                   </li>
                   <li className="flex flex-row gap-2 items-center">
                     <div className="rounded-full bg-[#D1FADF] flex flex-row justify-center items-center w-6 h-6">
