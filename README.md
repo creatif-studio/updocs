@@ -22,7 +22,7 @@ This command starts a local development server and opens up a browser window. Mo
 /detail-product = Detail Product  
 /sample-blog = Halaman utama Blog  
 /detail-blog = Detail Blog  
-/setapp = MASIH ERROR  
+/setapp/installation/overview = Documentation Setapp
 
 ### Build
 
