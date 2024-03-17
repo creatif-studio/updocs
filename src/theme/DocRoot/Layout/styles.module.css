@@ -3,6 +3,14 @@
   width: 100%;
 }
 
+@media (max-width: 1280px) {
+  .docRoot {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
 .docsWrapper {
   display: flex;
   flex: 1 0 auto;
