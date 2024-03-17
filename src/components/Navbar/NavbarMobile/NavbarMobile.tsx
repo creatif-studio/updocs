@@ -80,14 +80,14 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                 height={50.91}
                 className="w-20"
               />
-              {showResource == 'resource' || showResource == 'secondary' ? (
+              {showResource == 'resource' ? (
                 <button
                   type="button"
                   onClick={() => {
-                    if (showResource == 'secondary') {
-                      setShowResource('resource');
-                      // setShowResource("primary")
-                    }
+                    // if (showResource == 'secondary') {
+                    //   setShowResource('resource');
+                    //   // setShowResource("primary")
+                    // }
                     if (showResource == 'resource') {
                       setShowResource('primary');
                     }
@@ -301,56 +301,58 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                     View all product
                   </button>
                 </div>
-              ) : showResource == 'secondary' ? (
-                secondaryMenu.content
               ) : (
-                <ul
-                  className={`flex flex-col w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 opacity-100`}
-                >
-                  {route.map((item) => {
-                    return (
-                      <li
-                        className="py-6 bg-transparent list-none"
-                        key={item.label}
-                        role="button"
-                        onClick={() => setShowResource('resource')}
-                      >
-                        {item.label === 'Resource' ? (
-                          <div className="flex items-center">
-                            <p
-                              className={`text-base font-medium hover:text-black duration-500 rounded  dark:text-white md:dark:text-neutral-950 mb-0 ${
-                                pathname === item.path
-                                  ? 'text-black'
-                                  : 'text-[#7F7F7F]'
-                              }`}
-                            >
-                              {item.label}
-                            </p>
-                            <SlArrowRight
-                              className={`w-6 h-6 stroke-[1rem] ml-2 ${
-                                pathname === item.path
-                                  ? 'text-black'
-                                  : 'text-[#7F7F7F]'
-                              }`}
-                            />
-                          </div>
-                        ) : (
-                          <Link
-                            href={item.path}
-                            className={`text-base font-medium hover:text-black duration-500 rounded  dark:text-white md:dark:text-neutral-950 ${
-                              pathname === item.path
-                                ? 'text-black'
-                                : 'text-[#7F7F7F]'
-                            }`}
-                          >
-                            {item.label}
-                          </Link>
-                        )}
-                      </li>
-                    );
-                  })}
-                </ul>
-              )}
+                secondaryMenu.content
+              ) 
+              // (
+              //   <ul
+              //     className={`flex flex-col w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 opacity-100`}
+              //   >
+              //     {route.map((item) => {
+              //       return (
+              //         <li
+              //           className="py-6 bg-transparent list-none"
+              //           key={item.label}
+              //           role="button"
+              //           onClick={() => setShowResource('resource')}
+              //         >
+              //           {item.label === 'Resource' ? (
+              //             <div className="flex items-center">
+              //               <p
+              //                 className={`text-base font-medium hover:text-black duration-500 rounded  dark:text-white md:dark:text-neutral-950 mb-0 ${
+              //                   pathname === item.path
+              //                     ? 'text-black'
+              //                     : 'text-[#7F7F7F]'
+              //                 }`}
+              //               >
+              //                 {item.label}
+              //               </p>
+              //               <SlArrowRight
+              //                 className={`w-6 h-6 stroke-[1rem] ml-2 ${
+              //                   pathname === item.path
+              //                     ? 'text-black'
+              //                     : 'text-[#7F7F7F]'
+              //                 }`}
+              //               />
+              //             </div>
+              //           ) : (
+              //             <Link
+              //               href={item.path}
+              //               className={`text-base font-medium hover:text-black duration-500 rounded  dark:text-white md:dark:text-neutral-950 ${
+              //                 pathname === item.path
+              //                   ? 'text-black'
+              //                   : 'text-[#7F7F7F]'
+              //               }`}
+              //             >
+              //               {item.label}
+              //             </Link>
+              //           )}
+              //         </li>
+              //       );
+              //     })}
+              //   </ul>
+              // )
+              }
 
               {/* <ul
                 className={`flex flex-col w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 opacity-100`}
