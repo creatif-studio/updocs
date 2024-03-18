@@ -115,6 +115,7 @@
 .navbar {
   display: block;
   padding: 0;
+  height: max-content;
 }
 
 .poppins-thin {
