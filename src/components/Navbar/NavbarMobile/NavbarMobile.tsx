@@ -115,13 +115,13 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
               {showResource === 'resource' ? (
                 <div className="flex flex-col gap-8 items-center ">
                   <div
-                    className={`flex flex-col pointer-events-none w-full h-fit gap-8`}
+                    className={`flex flex-col w-full h-fit gap-8`}
                   >
                     <div>
                       <h3 className="font-poppins font-medium text-2xl mb-5">
                         Server
                       </h3>
-                      <div className="flex flex-row gap-5">
+                      <Link to="/products/setapp" className="flex flex-row gap-5 text-black hover:text-[#7F7F7F] hover:no-underline">
                         <img
                           src="/products/setapp-light-transparent.png"
                           alt="Logo"
@@ -137,14 +137,14 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                             Server management
                           </p>
                         </div>
-                      </div>
+                      </Link>
                     </div>
                     <div>
                       <h3 className="font-poppins font-medium text-2xl mb-5">
                         Management
                       </h3>
                       <div className="flex flex-col gap-3">
-                        <div className="flex flex-row gap-5">
+                        <Link to="/products/taktik" className="flex flex-row gap-5 text-black hover:text-[#7F7F7F] hover:no-underline">
                           <img
                             src="/products/taktik-light-transparent.png"
                             alt="Logo"
@@ -160,8 +160,8 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                               Server management
                             </p>
                           </div>
-                        </div>
-                        <div className="flex flex-row gap-5">
+                        </Link>
+                        <Link to="/products/bambu" className="flex flex-row gap-5 text-black hover:text-[#7F7F7F] hover:no-underline">
                           <img
                             src="/products/bambu-light.png"
                             alt="Logo"
@@ -177,8 +177,8 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                               Server management
                             </p>
                           </div>
-                        </div>
-                        <div className="flex flex-row gap-5">
+                        </Link>
+                        <Link to="/products/monito" className="flex flex-row gap-5 text-black hover:text-[#7F7F7F] hover:no-underline">
                           <img
                             src="/products/monito-light-transparent.png"
                             alt="Logo"
@@ -194,7 +194,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                               Server management
                             </p>
                           </div>
-                        </div>
+                        </Link>
                       </div>
                     </div>
                     <div>
@@ -202,7 +202,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                         Education
                       </h3>
                       <div className="flex flex-col gap-3">
-                        <div className="flex flex-row gap-5">
+                        <Link to="/products/eduka" className="flex flex-row gap-5 text-black hover:text-[#7F7F7F] hover:no-underline">
                           <img
                             src="/products/eduka-light.png"
                             alt="Logo"
@@ -218,8 +218,8 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                               Server management
                             </p>
                           </div>
-                        </div>
-                        <div className="flex flex-row gap-5">
+                        </Link>
+                        <Link to="/products/hashtag" className="flex flex-row gap-5 text-black hover:text-[#7F7F7F] hover:no-underline">
                           <img
                             src="/products/hashtag-light-transparent.png"
                             alt="Logo"
@@ -235,7 +235,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                               Server management
                             </p>
                           </div>
-                        </div>
+                        </Link>
                       </div>
                     </div>
                     <div>
@@ -243,7 +243,7 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                         Application
                       </h3>
                       <div className="flex flex-col gap-3">
-                        <div className="flex flex-row gap-5">
+                        <Link to="/products/setapp" className="flex flex-row gap-5 text-black hover:text-[#7F7F7F] hover:no-underline">
                           <img
                             src="/products/setapp-light-transparent.png"
                             alt="Logo"
@@ -259,8 +259,8 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                               Server management
                             </p>
                           </div>
-                        </div>
-                        <div className="flex flex-row gap-5">
+                        </Link>
+                        <Link to="/products/keepr" className="flex flex-row gap-5 text-black hover:text-[#7F7F7F] hover:no-underline">
                           <img
                             src="/products/keepr-light.png"
                             alt="Logo"
@@ -276,8 +276,8 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                               Server management
                             </p>
                           </div>
-                        </div>
-                        <div className="flex flex-row gap-5">
+                        </Link>
+                        <Link to="/products/paraf" className="flex flex-row gap-5 text-black hover:text-[#7F7F7F] hover:no-underline">
                           <img
                             src="/products/paraf-light.png"
                             alt="Logo"
@@ -293,13 +293,13 @@ function NavbarMobile({ className, route }: INavbarAllScreen): JSX.Element {
                               Server management
                             </p>
                           </div>
-                        </div>
+                        </Link>
                       </div>
                     </div>
                   </div>
-                  <button className="w-fit self-center text-white bg-neutral-950 hover:bg-neutral-800 focus:outline-none focus:ring-4 focus:ring-neutral-700 font-medium rounded-full text-sm px-6 py-3 text-center me-2 dark:bg-neutral-950 dark:hover:bg-neutral-800 dark:focus:ring-neutral-700">
+                  <Link href="/" className="w-fit self-center text-white bg-neutral-950 hover:bg-neutral-800 focus:outline-none focus:ring-4 focus:ring-neutral-700 font-medium rounded-full text-sm px-6 py-3 text-center me-2 hover:no-underline hover:text-neutral-200 dark:bg-neutral-950 dark:hover:bg-neutral-800 dark:focus:ring-neutral-700">
                     View all product
-                  </button>
+                  </Link>
                 </div>
               ) : secondaryMenu.content ? (
                 secondaryMenu.content

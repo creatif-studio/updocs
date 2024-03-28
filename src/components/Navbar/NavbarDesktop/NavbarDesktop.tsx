@@ -114,13 +114,13 @@ export const NavbarDesktop = ({
                   <HoverCardContent className="w-screen px-[3.25rem] py-8 bg-white">
                     <div className="flex flex-col justify-center">
                       <div
-                        className={`flex justify-evenly p-8 pointer-events-none h-fit`}
+                        className={`flex justify-evenly p-8 h-fit`}
                       >
                         <div>
                           <h3 className="font-poppins font-medium text-2xl mb-6">
                             Server
                           </h3>
-                          <div className="flex flex-row gap-5">
+                          <Link href='/products/setapp' className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                             <img
                               src="/products/setapp-light-transparent.png"
                               alt="Logo"
@@ -136,14 +136,14 @@ export const NavbarDesktop = ({
                                 Server management
                               </p>
                             </div>
-                          </div>
+                          </Link>
                         </div>
                         <div>
                           <h3 className="font-poppins font-medium text-2xl mb-6">
                             Management
                           </h3>
                           <div className="flex flex-col gap-3">
-                            <div className="flex flex-row gap-5">
+                            <Link href='/products/taktik' className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                               <img
                                 src="/products/taktik-light-transparent.png"
                                 alt="Logo"
@@ -159,8 +159,8 @@ export const NavbarDesktop = ({
                                   Server management
                                 </p>
                               </div>
-                            </div>
-                            <div className="flex flex-row gap-5">
+                            </Link>
+                            <Link href='/products/bambu' className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                               <img
                                 src="/products/bambu-light.png"
                                 alt="Logo"
@@ -176,8 +176,8 @@ export const NavbarDesktop = ({
                                   Server management
                                 </p>
                               </div>
-                            </div>
-                            <div className="flex flex-row gap-5">
+                            </Link>
+                            <Link href='/products/monito' className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                               <img
                                 src="/products/monito-light-transparent.png"
                                 alt="Logo"
@@ -193,7 +193,7 @@ export const NavbarDesktop = ({
                                   Server management
                                 </p>
                               </div>
-                            </div>
+                            </Link>
                           </div>
                         </div>
                         <div>
@@ -201,7 +201,7 @@ export const NavbarDesktop = ({
                             Education
                           </h3>
                           <div className="flex flex-col gap-3">
-                            <div className="flex flex-row gap-5">
+                            <Link href='/products/eduka' className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                               <img
                                 src="/products/eduka-light.png"
                                 alt="Logo"
@@ -217,8 +217,8 @@ export const NavbarDesktop = ({
                                   Server management
                                 </p>
                               </div>
-                            </div>
-                            <div className="flex flex-row gap-5">
+                            </Link>
+                            <Link href='/products/hashtag' className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                               <img
                                 src="/products/hashtag-light-transparent.png"
                                 alt="Logo"
@@ -234,7 +234,7 @@ export const NavbarDesktop = ({
                                   Server management
                                 </p>
                               </div>
-                            </div>
+                            </Link>
                           </div>
                         </div>
                         <div>
@@ -242,7 +242,7 @@ export const NavbarDesktop = ({
                             Application
                           </h3>
                           <div className="flex flex-col gap-3">
-                            <div className="flex flex-row gap-5">
+                            <Link href='/products/setapp' className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                               <img
                                 src="/products/setapp-light-transparent.png"
                                 alt="Logo"
@@ -258,8 +258,8 @@ export const NavbarDesktop = ({
                                   Server management
                                 </p>
                               </div>
-                            </div>
-                            <div className="flex flex-row gap-5">
+                            </Link>
+                            <Link href="/products/keepr" className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                               <img
                                 src="/products/keepr-light.png"
                                 alt="Logo"
@@ -275,8 +275,8 @@ export const NavbarDesktop = ({
                                   Server management
                                 </p>
                               </div>
-                            </div>
-                            <div className="flex flex-row gap-5">
+                            </Link>
+                            <Link href='/products/paraf' className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                               <img
                                 src="/products/paraf-light.png"
                                 alt="Logo"
@@ -292,13 +292,13 @@ export const NavbarDesktop = ({
                                   Server management
                                 </p>
                               </div>
-                            </div>
+                            </Link>
                           </div>
                         </div>
                       </div>
-                      <button className="w-fit self-center text-white bg-neutral-950 hover:bg-neutral-800 focus:outline-none focus:ring-4 focus:ring-neutral-700 font-medium rounded-full text-sm px-6 py-3 text-center me-2 dark:bg-neutral-950 dark:hover:bg-neutral-800 dark:focus:ring-neutral-700">
+                      <Link href="/" className="cursor-pointer w-fit self-center text-white bg-neutral-950 hover:bg-neutral-800 focus:outline-none focus:ring-4 focus:ring-neutral-700 font-medium rounded-full text-sm px-6 py-3 text-center me-2 hover:no-underline hover:text-neutral-200 dark:bg-neutral-950 dark:hover:bg-neutral-800 dark:focus:ring-neutral-700">
                         View all product
-                      </button>
+                      </Link>
                     </div>
                   </HoverCardContent>
                 </HoverCard>
@@ -322,7 +322,7 @@ export const NavbarDesktop = ({
                   >
                     <div>
                       <h3 className="font-poppins font-medium text-2xl mb-6">Server</h3>
-                      <div className="flex flex-row gap-5">
+                      <div className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                         <Image
                           src="/products/setapp-light-transparent.png"
                           alt="Logo"
@@ -345,7 +345,7 @@ export const NavbarDesktop = ({
                         Management
                       </h3>
                       <div className="flex flex-col gap-3">
-                        <div className="flex flex-row gap-5">
+                        <div className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                           <Image
                             src="/products/taktik-light-transparent.png"
                             alt="Logo"
@@ -362,7 +362,7 @@ export const NavbarDesktop = ({
                             </p>
                           </div>
                         </div>
-                        <div className="flex flex-row gap-5">
+                        <div className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                           <Image
                             src="/products/bambu-light.png"
                             alt="Logo"
@@ -379,7 +379,7 @@ export const NavbarDesktop = ({
                             </p>
                           </div>
                         </div>
-                        <div className="flex flex-row gap-5">
+                        <div className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                           <Image
                             src="/products/monito-light-transparent.png"
                             alt="Logo"
@@ -403,7 +403,7 @@ export const NavbarDesktop = ({
                         Education
                       </h3>
                       <div className="flex flex-col gap-3">
-                        <div className="flex flex-row gap-5">
+                        <div className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                           <Image
                             src="/products/eduka-light.png"
                             alt="Logo"
@@ -420,7 +420,7 @@ export const NavbarDesktop = ({
                             </p>
                           </div>
                         </div>
-                        <div className="flex flex-row gap-5">
+                        <div className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                           <Image
                             src="/products/hashtag-light-transparent.png"
                             alt="Logo"
@@ -444,7 +444,7 @@ export const NavbarDesktop = ({
                         Application
                       </h3>
                       <div className="flex flex-col gap-3">
-                        <div className="flex flex-row gap-5">
+                        <div className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                           <Image
                             src="/products/setapp-light-transparent.png"
                             alt="Logo"
@@ -461,7 +461,7 @@ export const NavbarDesktop = ({
                             </p>
                           </div>
                         </div>
-                        <div className="flex flex-row gap-5">
+                        <div className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                           <Image
                             src="/products/keepr-light.png"
                             alt="Logo"
@@ -478,7 +478,7 @@ export const NavbarDesktop = ({
                             </p>
                           </div>
                         </div>
-                        <div className="flex flex-row gap-5">
+                        <div className="flex flex-row gap-5 cursor-pointer text-black hover:text-[#7F7F7F] hover:no-underline">
                           <Image
                             src="/products/paraf-light.png"
                             alt="Logo"
@@ -510,7 +510,7 @@ export const NavbarDesktop = ({
             >
               <Link
                 href={item.path}
-                className={`text-base font-medium hover:text-black duration-500 rounded  dark:text-white md:dark:text-neutral-950 ${
+                className={`text-base font-medium hover:text-black duration-500 rounded  dark:text-white md:dark:text-neutral-950 hover:no-underline ${
                   pathname === item.path ? 'text-black' : 'text-[#7F7F7F]'
                 }`}
               >
